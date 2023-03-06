@@ -21,3 +21,39 @@ I am a highly motivated and detail-oriented individual with a passion for web de
 - Figma (Basic)
 - NODEJS (Basic, Framework Express.js)
 - MONGODB (Basic, Mongoose)
+
+## Code example
+
+**DESCRIPTION**:
+Digital root is the recursive sum of all the digits in a number.
+
+Given n, take the sum of the digits of n. If that value has more than one digit, continue reducing in this way until a single-digit number is produced. The input will be a non-negative integer.
+
+```js
+function digitalRoot(n) {
+  function addArray(number) {
+    return (number = number.toString().split(''));
+  }
+
+  function sumArray(array) {
+    const sum = array.reduce((a, b) => +a + +b, 0);
+    console.log(sum);
+    return sum;
+  }
+
+  const numbers = addArray(n);
+  let sum = sumArray(numbers);
+  if (sum >= 10) {
+    const newNumber = addArray(sum);
+    sum = sumArray(newNumber);
+    return digitalRoot(sum);
+  }
+  return sum;
+}
+```
+
+## Courses
+
+- Yandex Prakticum Course "Web developer" (completed)
+
+- RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
