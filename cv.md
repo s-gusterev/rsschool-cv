@@ -57,3 +57,8 @@ function digitalRoot(n) {
 - Yandex Prakticum Course "Web developer" (completed)
 
 - RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
+
+## Languages
+
+- English (Beginner)
+- Russian (Native)
