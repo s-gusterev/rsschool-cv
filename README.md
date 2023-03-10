@@ -1,0 +1,2 @@
+- <https://s-gusterev.github.io/rsschool-cv/cv>
+- <https://s-gusterev.github.io/rsschool-cv/>
